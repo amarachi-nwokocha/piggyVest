@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd3630db5f.js" crossorigin="anonymous"></script>
+    <title>PiggyVest</title>
+</head>
+
+<body>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar-head">
+                <div class="inner-head">
+                    <img class="burger" src="assets/burger.png" alt="">
+                    <img class="logo" src="assets/logo.png" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <img src="assets/hm.svg" alt="">
+                    <span>Home</span>
+                </div>
+                <div class="link">
+                    <img src="assets/dt.svg" alt="">
+                    <span>Savings</span>
+                </div>
+                <div class="link">
+                    <img src="assets/rk.svg" alt="">
+                    <span>Invest</span>
+                </div>
+                <div class="link">
+                    <img src="assets/acc.svg" alt="">
+                    <span>Account</span>
+                </div>
+                <div class="link">
+                    <img src="assets/cl.svg" alt="">
+                    <span class="active">PiggyCalculator</span>
+                </div>
+            </div>
+            <div class="logout">
+                <img src="assets/lg.svg" alt="">
+                <span>Logout</span>
+            </div>
+        </div>
+        <div class="icon-sidebar">
+            <div class="icon-sidebar-head">
+                <div class="icon-inner-head">
+                    <img class="icon-burger" src="assets/burger.png" alt="">
+                </div>
+            </div>
+            <div class="icon-links">
+                <div class="icon-link">
+                    <img src="assets/hm.svg" alt="">
+                </div>
+                <div class="icon-link">
+                    <img src="assets/dt.svg" alt="">
+                </div>
+                <div class="icon-link">
+                    <img src="assets/rk.svg" alt="">
+                </div>
+                <div class="icon-link">
+                    <img src="assets/acc.svg" alt="">
+                </div>
+                <div class="icon-link">
+                    <img src="assets/cl.svg" alt="">
+                </div>
+            </div>
+            <div class="icon-logout">
+                <img src="assets/lg.svg" alt="">
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="header">
+                <div class="header-text">
+                    <h3>PiggyCalculator</h3>
+                    <p>Let's see how your cash can rack up</p>
+                </div>
+                <div class="circle">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="input">
+                <p id="label">Total Amount</p>
+                <p id="total-payment">&#8358;0.00</p>
+            </div>
+            <div class="select-savings">
+                <p id='ses'>Select savings type</p>
+                <div class="select">
+                    <div class="buttons" id="blue">
+                        <img src="assets/shield.svg" alt="">
+                        <span id="blue">Piggybank</span>
+                    </div>
+                    <div class="buttons" id="pink">
+                        <img src="assets/flx.svg" alt="">
+                        <span id="pink">Flex Naira</span>
+                    </div>
+                    <div class="buttons" id="blue">
+                        <img src="assets/lk.svg" alt="">
+                        <span id="blue">Safelock</span>
+                    </div>
+                    <div class="buttons" id="green">
+                        <img src="assets/tg.svg" alt="">
+                        <span id="green">Targets</span>
+                    </div>
+                    <div class="buttons" id="grey">
+                        <img src="assets/dl.svg" alt="">
+                        <span id="grey">Flex Dollar</span>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator__advert">
+                <div class="inside__calc">
+                    <div class="calculator">
+                        <div class="form-section">
+                            <p>Or enter % in months [e.g 20% in 12months]</p>
+                            <div class="per__month">
+                                <input class="percent" type="text">% &nbsp; &nbsp; in &nbsp; &nbsp; <input class="mon" type="text">m
+                            </div>
+                        </div>
+                        
+                        <div class="form-section" id="amount">
+                            <p>Tap here and enter an amount.. (e.g 5000)</p>
+                            <div class="amount">
+                                <input type="number">
+                            </div>
+                        </div>
+                        <div class="form-section">
+                            <p>Tap here and enter for how long.. (e.g 22 months)</p>
+                            <div class="amount" id="years">
+                                <input type="number">
+                            </div>
+                        </div>
+
+                        <button class="calc">
+                            CALCULATE
+                        </button>
+                    </div>
+                    <div class="advert">
+                        <div class="flier">
+                            <p>WATCH THE LAST OPEN HOUSE</p>
+                            <div class="fly">
+                                <img src="assets/f1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flier">
+                            <p>DOWNLOAD THE MOBILE APP</p>
+                            <div class="download">
+                                <img src="assets/f2.png" alt="">
+                                <img src="assets/f3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flier">
+                            <p>DEEP & EARN</p>
+                            <div class="fly">
+                                <img src="assets/f4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-menu">
+                <i class="fas fa-home"></i>
+                <i class="fas fa-piggy-bank"></i>
+                <i class="fas fa-rocket"></i>
+                <i class="far fa-user"></i>
+                <i class="fas fa-calculator footer-active"></i>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
